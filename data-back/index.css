@@ -3,10 +3,10 @@ body { margin:0; font-family:microsoft yahei;}
 ul, li, p, h3, img { margin:0; padding:0; list-style:none;}
 header { height:60px; background-color:#2189C0; overflow:hidden;}
 header>img { width:40px; height:40px; float:left; margin-top:10px; margin-left:40px;}
-.login-btn { display:inline-block; height:30px; line-height:30px; font-size:12px; color:#fff; float:right; margin-right:15px; margin-top:15px; padding-left:30px; background:url(images/user.png) no-repeat; background-size:20px 20px; background-position:5px 5px; cursor:pointer; margin-right:40px;}
+.login-btn { display:inline-block; height:30px; line-height:30px; font-size:12px; color:#fff; float:right; margin-right:15px; margin-top:15px; padding-left:26px; background:url(images/user.png) no-repeat; background-size:16px 16px; background-position:5px 7px; cursor:pointer; margin-right:40px;}
 .input-box { width:300px; height:30px; float:right; margin-top:15px; margin-right:20px; position:relative;}
-#serach { width:100%; height:100%; border:none; background-color:#fff; border-radius:15px; padding-left:50px; box-sizing:border-box; font-size:12px; color:#666;}
-.input-box>img { width:20px; height:20px; position:absolute; left:20px; top:5px;}
+#serach { width:100%; height:100%; border:none; background-color:#fff; border-radius:5px; padding-left:40px; box-sizing:border-box; font-size:12px; color:#666;}
+.input-box>img { width:20px; height:20px; position:absolute; left:10px; top:5px;}
 
 main { overflow:hidden;}
 .nav-box { width:260px; background-color:#2B2E3D; float:left; min-height:1000px;}
@@ -14,18 +14,18 @@ main { overflow:hidden;}
 .username-box { height:100px;}
 .username-box>img { width:50px; height:50px; border-radius:25px; float:left; margin-left:40px; margin-top:25px;}
 .username-box>p { height:30px; line-height:30px; font-size:16px; color:#fff; margin-left:105px; padding-top:35px;}
-.fans-box { width:180px; overflow:hidden; margin-left:25px; margin-bottom:20px;}
-.fans-box>p { width:50%; line-height:18px; float:left; font-size:12px; color:#4E5A6A; text-align:center;}
+.fans-box { width:180px; overflow:hidden; margin-left:25px; margin-bottom:40px;}
+.fans-box>p { width:50%; line-height:18px; float:left; font-size:12px; color:#ddd; text-align:center;}
 .fans-box>p:first-child { border-right:solid #4E5A6A 1px; box-sizing:border-box;}
-.nav-box>ul>li>p { width:220px; line-height:40px; font-size:12px; color:#4E5A6A; padding-left:35px; box-sizing:border-box; background:url(images/report.png) no-repeat; background-size:15px 16px; background-position:10px 12px; margin-left:40px;}
+.nav-box>ul>li>p { width:220px; line-height:40px; font-size:12px; color:#ddd; padding-left:35px; box-sizing:border-box; background:url(images/report.png) no-repeat; background-size:15px 16px; background-position:10px 12px; margin-left:40px;}
 
 .path { line-height:30px; font-size:14px; color:#999; background-color:#fff; padding-left:40px;}
 .word { color:#2189C0;}
-.search-box { width:900px; background-color:#fff; border:solid #ccc 1px; box-sizing:border-box; overflow:hidden; margin-left:40px; margin-top:15px; padding:11px 0px;}
+.search-box { width:900px; background-color:#fff; border:solid #ccc 1px; box-sizing:border-box; overflow:hidden; margin-left:40px; margin-top:20px; padding:21px 0px;}
 .search-form-box { width:670px; float:left; margin-left:30px;}
 .search-form-box>div { overflow:hidden;}
 .search-form-box>div>div { line-height:26px; font-size:12px; color:#999999; float:left; overflow:hidden;}
-.search-form-box select, .search-form-box input { height:26px; font-size:12px; color:#333333; padding-left:10px; box-sizing:border-box; border:solid #ccc 1px; outline:none; float:right;}
+.search-form-box select, .search-form-box input { height:26px; font-size:12px; color:#333333; padding-left:10px; box-sizing:border-box; border:solid #ddd 1px; outline:none; float:right;}
 #project, #time, #count { width:70px;}
 #buy, #date, #sale, #done-project { width:120px;}
 .top-form-box>div:first-child { width:120px;}
@@ -35,8 +35,8 @@ main { overflow:hidden;}
 .bottom-form-box>div:first-child { width:180px; margin-left:150px;}
 .bottom-form-box>div:nth-child(2) { width:120px; margin-left:30px;}
 .bottom-form-box>div:last-child { width:180px; margin-left:10px;}
-.search-btn { width:50px; height:26px; line-height:26px; font-size:12px; color:#fff; text-align:center; background-color:#388BC1; border-radius:2px; float:left; margin-left:30px; margin-top:16px; cursor:pointer;}
-.time-box { width:900px; overflow:hidden; margin-top:10px; height:60px; margin-left:40px;}
+.search-btn { width:70px; height:26px; line-height:26px; font-size:12px; color:#fff; text-align:center; background-color:#388BC1; border-radius:2px; float:left; margin-left:30px; margin-top:16px; cursor:pointer;}
+.time-box { width:900px; overflow:hidden; margin-top:20px; height:60px; margin-left:40px;}
 .time-box>img { width:10px; height:15px; padding:22.5px 10px; background-color:#fff; float:left; cursor:pointer;}
 .list-box { width:702px; float:left; height:100%; overflow:hidden;}
 .history-search-btn { width:132px; height:100%; margin-left:6px; float:left; background:url(images/date.png) no-repeat; background-size:30px 30px; background-position:20px 15px; padding-left:60px; box-sizing:border-box; line-height:60px; font-size:14px; color:#333; background-color:#fff; cursor:pointer;}
@@ -60,9 +60,9 @@ main { overflow:hidden;}
 .data-box>ul>li:nth-child(2) div { background-color:#388BC1;}
 .data-box>ul>li:nth-child(3) div { background-color:#CF4B36;}
 .data-box>ul>li:last-child div { background-color:#E1CD46;}
-.project-box { width:900px; height:360px; margin-top:10px; margin-left:40px; overflow:hidden;}
-.left-box { width:530px; height:100%; float:left; background-color:#fff; border:solid #ccc 1px; border-radius:5px; box-sizing:border-box; position:relative;}
-.left-box>p, .right-box>p { line-height:40px; font-size:12px; color:#999; padding-left:20px; background-color:#F4F5F7; border-top-left-radius:5px; border-top-right-radius:5px;}
+.project-box { width:900px; height:360px; margin-top:20px; margin-left:40px; overflow:hidden;}
+.left-box { width:530px; height:100%; float:left; background-color:#fff; border:solid #ccc 1px; border-radius:1px; box-sizing:border-box; position:relative;}
+.left-box>p, .right-box>p { line-height:40px; font-size:12px; color:#999; padding-left:20px; background-color:#F4F5F7; border-top-left-radius:1px; border-top-right-radius:1px;}
 .table-box { width:490px; height:250px; border:solid #ccc 1px; box-sizing:border-box; margin:40px 20px 20px 20px;}
 .table-box table { font-size:14px; color:#333; margin:auto; margin-top:30px; border-collapse:collapse;}
 .table-box table td { padding:5px 15px; border:solid #ccc 1px;}
@@ -72,4 +72,4 @@ main { overflow:hidden;}
 .left-box>ul>li>div { width:100%; height:1px; background-color:#ccc;}
 .project-on, .left-box>ul>li:hover { border:solid #ccc 1px; border-bottom:none; background-color:#fff !important;}
 .project-on>div, .left-box>ul>li:hover>div { background-color:#fff;}
-.right-box { width:360px; height:100%; background-color:#fff; border-radius:5px; float:left; margin-left:10px; border:solid #ccc 1px; box-sizing:border-box;}
+.right-box { width:360px; height:100%; background-color:#fff; border-radius:1px; float:left; margin-left:10px; border:solid #ccc 1px; box-sizing:border-box;}
